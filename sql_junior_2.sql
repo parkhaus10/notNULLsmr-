@@ -1,0 +1,2 @@
+DELETE FROM t2
+WHERE date = (SELECT MAX(date) FROM t2);
